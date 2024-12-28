@@ -66,9 +66,6 @@ a {
 .my-summary {
   margin-top: 20px;
   background-color: #b1dcff1f;
-
-  border-color: navy;
-  border-radius: 5px;
   font-size: var(--font-size-small);
   line-height: 1.6;
   color: var(--primary-color);
@@ -139,7 +136,7 @@ a {
 /* Work Experience */
 
 .work-experience-container {
-  margin-bottom: 44px;
+  margin-bottom: 60px;
 }
 
 .work-experience-position {
@@ -181,6 +178,33 @@ a {
   margin: 0;
 }
 
+/* Soft Skills */
+.soft-skills-container {
+  /* margin-top: 28px; */
+  background-color: #b1dcff1f;
+  font-size: var(--font-size-small);
+  line-height: 24px;
+  color: #595959;
+}
+
+.soft-skills-list {
+ padding: 0 0 0 16px;
+  margin: 0;
+}
+
+/* .soft-skills-list-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: var(--font-size-small);
+  line-height: 24px;
+  color: var(--secondary-color);
+  margin-bottom: 8px;
+} */
+
+.soft-skills-list-item:hover {
+  color: #6d9bf5;
+}
+
 /* Sidebar */
 
 .sidebar {
@@ -194,14 +218,14 @@ a {
 
 /* Contacts */
 
-.contacts-type {
+/* .contacts-type {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 24px;
   color: #161d2a;
   margin-right: 8px;
-}
+} */
 
 .contacts-item {
   margin: 0;
@@ -237,7 +261,6 @@ a {
 .contacts-container,
 .education-container,
 .tech-skills-container,
-.soft-skills-container,
 .languages-container {
   margin-top: 36px;
   margin-left: 24px;
